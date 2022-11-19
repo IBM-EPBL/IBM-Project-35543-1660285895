@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Virtual login</title>
+    <!--<link rel="stylesheet" type="text/css" href="style.css">-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        html,
+        body,
+        div,
+        span,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        abbr,
+        address,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        samp,
+        small,
+        strong,
+        sub,
+        sup,
+        var,
+        b,
+        i,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+        }
+
+        body {
+            line-height: 1;
+        }
+
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        blockquote,
+        q {
+            quotes: none;
+        }
+
+        blockquote:before,
+        blockquote:after,
+        q:before,
+        q:after {
+            content: '';
+            content: none;
+        }
+
+        a {
+            margin: 0;
+            padding: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+        }
+
+        /* change colours to suit your needs */
+        ins {
+            background-color: #ff9;
+            color: #000;
+            text-decoration: none;
+        }
+
+        /* change colours to suit your needs */
+        mark {
+            background-color: #ff9;
+            color: #000;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        del {
+            text-decoration: line-through;
+        }
+
+        abbr[title],
+        dfn[title] {
+            border-bottom: 1px dotted;
+            cursor: help;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        /* change border colour to suit your needs */
+        hr {
+            display: block;
+            height: 1px;
+            border: 0;
+            border-top: 1px solid #cccccc;
+            margin: 1em 0;
+            padding: 0;
+        }
+
+        input,
+        select {
+            vertical-align: middle;
+        }
+
+        nav {
+            float: inherit;
+            word-spacing: 30px;
+            padding: 10px;
+        }
+
+        nav li {
+            display: inline-block;
+            line-height: 80px;
+        }
+
+        section {
+            margin-top: -20px;
+        }
+
+        /*----------------------------------login-------------------------------*/
+        .log_img {
+            height: 660px;
+            margin-top: 0px;
+            background-image: url("swim1.jpg");
+
+        }
+
+        .box2 {
+            height: 600px;
+            width: 410px;
+            background-color: lightgrey;
+            margin: 0px auto;
+            opacity: .7;
+            color: black;
+            padding: 20px;
+
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand active" style="font-size: 30px;text-indent: inherit;">VIRTUAL-EYE</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html"> HOME </a></li>
+                <li><a href="logi.html"> LOGIN </a></li>
+                <li><a href="register.html"> REGISTER </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div class="log_img">
+
+            <div class="box2">
+                <img src="digital.jpg" class="center">
+                <h1 style="text-align: center; font-size: 35px; font-family: Lucida Console;color: black;padding: 10px;">VIRTUAL EYE SWIMMING POOL</h1>
+                <h1 style="text-align: center;font-size: 25px;color: black;padding: 10px;">User Login Form</h1>
+
+                <form name="Registration" action="" method="">
+
+                    <div class="login">
+                        <input class="form-control" type="text" name="email" placeholder="Enter Registered Email ID" required=""><br>
+                        <input class="form-control" type="password" name="password" placeholder="Enter Password" required=""> <br>
+                        <a href="pred.html">
+                            <input class="btn btn-default" type="submit" name="submit" value="login" style="color: black; width: 70px; height: 30px"></a>
+                    </div>
+
+                </form>
+
+
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
